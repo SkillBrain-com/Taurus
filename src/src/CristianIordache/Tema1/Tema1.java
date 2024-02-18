@@ -1,9 +1,8 @@
-package Tema1;
+package CristianIordache.Tema1;
 
 import java.util.Scanner;
 
 public class Tema1 {
-
     public static void main(String[] args) {
         exercitiul1();
         exercitiul2();
@@ -103,3 +102,4 @@ public class Tema1 {
 
     }
 }
+
