@@ -38,7 +38,6 @@ public class Tema1 {
         Ana = 24;
         David = Ana - 6;
         System.out.println("Varsta lui David este:" + " " + David);
-
     }
 
 //4. Scrieti un program in care cititi o propozitie de la tastatura
@@ -84,7 +83,6 @@ public class Tema1 {
 //            - rezultatul inmultirii cu -3.2
 //            - rezultatul impartirii cu 4
 //            - rezultatul modulului cu 6
-
     static void ex7(){
         Scanner introdu_de_la_tastatura = new Scanner(System.in);
         System.out.println("Introduceti 1 numer de la tastatura: ");
@@ -118,7 +116,6 @@ public class Tema1 {
         System.out.println(y);
 
     }
-
 
 }
 
