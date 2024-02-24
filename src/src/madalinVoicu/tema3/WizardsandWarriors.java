@@ -7,13 +7,19 @@ public class WizardsandWarriors{
         warrior.toString();
         System.out.println(warrior);
         System.out.println("Is warrior vulnerable? " + warrior.isVulnerable());
+
         Wizard wizard = new Wizard();
         wizard.prepareSpell();
-
         wizard.isVulnerable();
         System.out.println("Is wizard vulnerable? " + wizard.isVulnerable());
+
+        wizard.prepareSpell();
         wizard.damagePoints(warrior);
-        System.out.println("Damage");
+        System.out.println("Damage points for a wizard: " + wizard.damagePoints(warrior));
+
+        wizard.prepareSpell();
+        warrior.damagePoints(wizard);
+        System.out.println("Damage points for a warrior: " + warrior.damagePoints(wizard));
 
     }
 }
@@ -64,6 +70,5 @@ class Wizard extends Fighter {
 
     void prepareSpell() {
         spells += 1;
-        System.out.println("Wizard prepared " + spells + " spells!");
     }
 }
