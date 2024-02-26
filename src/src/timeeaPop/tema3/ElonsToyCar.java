@@ -52,5 +52,6 @@ package timeeaPop.tema3;
 
             car.distanceDisplay();
             car.batteryDisplay();
+            car.batteryDisplay(); // line added just for test
         }
 }
