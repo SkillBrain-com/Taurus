@@ -11,7 +11,6 @@ public class ElonsToyCar {
         int distanta = 0;
         System.out.println("Distanta parcursa este " + distanta + ".");
     }
-
     public void batteryDisplay() {
         int baterie = 100;
         System.out.println("Bateria este incarcata " + baterie + "%.");
