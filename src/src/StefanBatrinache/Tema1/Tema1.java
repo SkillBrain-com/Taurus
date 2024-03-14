@@ -14,7 +14,7 @@ public class Tema1 {
         ex7();
         ex8();
     }
-    static void ex1 () {
+    static void ex1 () { //sdafasiojfasouisaoiuafsjoiasfiojafsiojfasioj
         System.out.println("Imi place Java!");
 
     }
